@@ -144,8 +144,6 @@ body {
 	transform: rotate(-10deg) scale(1.1,1.1);
 }
 
-
-
 p {
 	max-width: 600px;
 	padding: 1em;
@@ -155,10 +153,8 @@ p {
 	font-size: 1.3em;
 	margin: 1em;
 	border-radius: 2%;
-<<<<<<< HEAD
 	display: inline-block;
-=======
->>>>>>> origin/gh-pages
+
 }
 
 #wrapper {
@@ -222,11 +218,11 @@ p {
 
 
 .member {
-		background-color: rgba(206, 206, 206, 0.3);
-		border-radius: 2%;
-		width: 300px;
-		display: inline-block;
-		margin: 2em;
+	background-color: rgba(206, 206, 206, 0.3);
+	border-radius: 2%;
+	width: 300px;
+	display: inline-block;
+	margin: 2em;
 }
 
 .profile  {
@@ -257,7 +253,7 @@ p {
 }
 
 .others li {
-		color: white;
+	color: white;
 	font-family: 'Lato', sans-serif;
 	font-size: 1.5em;
 	text-decoration: none;
