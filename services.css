@@ -7,7 +7,7 @@ light gray:  rgba(206, 206, 206, 0.3)
 
 
 .header {
-	background: url("https://scontent-lax3-1.xx.fbcdn.net/t31.0-8/10624035_10204579077748332_5029333231549167312_o.jpg");
+	background: url("img/standard_elementary.jpg");
 	background-size: cover;
 	min-height: 600px;
 	max-height: 800px;
