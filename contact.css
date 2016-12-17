@@ -90,7 +90,7 @@ body {
 
 .logo {
 	display: inline-block;
-	margin: -40px 0;
+	margin: -45px 0;
 }
 
 .logo img {
@@ -114,13 +114,17 @@ body {
 	display: inline-block;
 }
 
+.navbuttons a:hover {
+color: white;
+}
+
 .navbuttons li {
 	float: left;
-	padding: 1.2em 3em;
+	padding: 20px 60px;
 	transition: background-color .3s;
 }
 
-.navbuttons li a {
+.navbuttons a {
 	color: white;
 	font-family: 'Lato', sans-serif;
 	font-size: 1.5em;
