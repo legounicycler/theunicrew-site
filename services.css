@@ -133,10 +133,14 @@ body {
 	background-color: #c40909;
 }
 
-.social {
+.navigation .social {
 	display: inline-block;
 	float: right;
 	margin-right: 40px;
+}
+
+.social {
+display: inline-block;
 }
 
 .social ul{
