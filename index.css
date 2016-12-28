@@ -1,11 +1,11 @@
 
 .header {
-	background: url("img/morro.jpg");
+	background: url("img/newspaper1.jpg");
 	background-size: cover;
 	min-height: 600px;
 	max-height: 800px;
 	text-align: center;
-	background-position: 0 -50px;
+	background-position: 0 -100px;
 	background-repeat: no-repeat;
 	position: relative;
 	z-index: -1;
@@ -15,6 +15,8 @@
 	position: absolute;
 	width: 100%;
 	bottom: 1em;
+	background-color: rgba(1, 1, 1, 0.5);
+	margin-bottom: 3em;
 }
 
 .header h3 {
