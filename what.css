@@ -111,6 +111,7 @@ body {
 
 .navbuttons li:hover {
 	background-color:#c40909;
+	color: white;
 }
 
 .navigation .social {
