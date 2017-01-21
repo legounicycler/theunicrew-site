@@ -61,6 +61,10 @@ h2 {
 	padding: 0;
 }
 
+h1 {
+	margin-bottom: 0;
+}
+
 body {
 	background-color: #232323;
 	margin: 0;
@@ -227,7 +231,7 @@ p {
 .button:hover {
 	background-color: #a30000;
 	transform: scale(1.05);
-
+	color: white;
 }
 
 .footer {
@@ -269,8 +273,20 @@ a:hover {
 	padding-bottom: 1em;
 }
 
+#youtube {
+	height: 200px;
+	margin-top: 30px;
+}
+
 #not {
   background: none;
 }
 
+#yt-logo {
+	height: 100px;
+	margin: 0;
+}
 
+#subscribe {
+	margin: 1em 0;
+}
