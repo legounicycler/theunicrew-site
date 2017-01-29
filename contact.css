@@ -7,177 +7,11 @@ light gray:  rgba(206, 206, 206, 0.3)
 
 
 .header {
-	background: url("img/fca4.JPG");
+	background-image: url("img/fca4.JPG");
 	background-size: cover;
-	min-height: 600px;
-	max-height: 800px;
-	text-align: center;
-	background-position: 0 -50px;
-	background-repeat: no-repeat;
-	position: relative;
-	z-index: -1;
+	background-position: center -50px;
 }
 
-.header-content {
-	position: absolute;
-	width: 100%;
-	bottom: 1em;
-}
-
-.header h3 {
-	font-size: 2em;
-	color: white;
-	font-family: 'Alegreya Sans SC', sans-serif;
-	font-weight: 200;
-	margin: 0;
-	text-shadow: 1px 1px 2px #000;
-}
-
-
-.header h1 {
-	font-size: 8em;
-	color: white;
-	font-family: 'Alegreya Sans SC', sans-serif;
-	font-weight: 100;
-	margin: 0 0 0 0;
-	padding: 0;
-	text-shadow: 2px 2px 0px #000;
-}
-
-h3 {
-	font-size: 2em;
-	color: white;
-	font-family: 'Alegreya Sans SC', sans-serif;
-	font-weight: 200;
-	margin: 0;
-}
-
-h2 {
-	font-size: 3.5em;
-	color: white;
-	font-family: 'Alegreya Sans SC', sans-serif;
-	font-weight: 100;
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	background-color: #232323;
-	margin: 0;
-	position: relative;
-}
-
-
-.navigation {
-	position: fixed;
-	display: inline-block;
-	background-color: #7f0808;
-	width: 100%;
-	margin-top: 50px;
-	box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.6);
-}
-
-.navigation ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	display: inline-block;
-	background-color: #7f0808;
-	vertical-align: middle;
-	font-family: 'Lato', sans-serif;
-}
-
-.logo {
-	display: inline-block;
-	margin: -45px 0;
-}
-
-.logo img {
-	border-radius: 100%;
-	max-height: 150px;
-	max-width: 150px;
-	margin-left: 2em;
-	vertical-align: middle;
-	transition: transform .5s;
-	box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.6);
-	position: relative;
-	z-index: 99;
-	margin-right: 2em;
-}
-
-.logo img:hover {
-	transform: rotate(-7deg);
-}
-
-.navbuttons {
-	display: inline-block;
-}
-
-.navbuttons a:hover {
-color: white;
-}
-
-.navbuttons li {
-	float: left;
-	padding: 20px 60px;
-	transition: background-color .3s;
-}
-
-.navbuttons a {
-	color: white;
-	font-family: 'Lato', sans-serif;
-	font-size: 1.5em;
-	text-decoration: none;
-	text-align: center;
-	font-weight: 400;
-}
-
-.navbuttons li:hover {
-	background-color: #c40909;
-}
-
-.navigation .social {
-	display: inline-block;
-	float: right;
-	margin-right: 40px;
-}
-
-.social {
-display: inline-block;
-}
-
-.social ul{
-	list-style-type: none;
-	padding: 1em;
-	display: inline-block;
-}
-
-.social li{
-	float: left;
-	margin: 0em 1em;
-}
-
-.social img{
-	height: 2em;
-	padding: .1em;
-    transition: transform .5s
-}
-
-.social img:hover {
-	transform: rotate(-10deg) scale(1.1,1.1);
-}
-
-p {
-	max-width: 600px;
-	padding: 1em;
-	background-color: rgba(206, 206, 206, 0.3);
-	color: white;
-	font-family: 'Lato', sans-serif;
-	font-size: 1.3em;
-	margin: 1em;
-	border-radius: 2%;
-}
 
 #wrapper {
 	margin: 0 auto;
@@ -186,66 +20,6 @@ p {
 
 #wrapper p {
 	text-align: center;
-}
-
-
-.info h1{
-	font-size: 80px;
-	color: white;
-	font-family: 'Alegreya Sans SC', sans-serif;
-	font-weight: 100;
-}
-
-.info {
-	text-align: center;
-	margin: 3em;
-	border-top: 3px solid #c1c1c1;
-	padding: 0 2em;
-}
-
-
-.button {
-	background-color: #7f0808;
-    border: none;
-    color: white;
-    padding: .5em 5em;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    transition: background-color, transform .4s;
-    font-family: 'Lato', sans-serif;
-	font-size: 1.5em;
-}
-
-
-.button:hover {
-	background-color: #a30000;
-	transform: scale(1.05);
-
-}
-
-.footer {
-	height: 10px;
-	color: gray;
-	text-align: right;
-	background-color: #161616;
-	padding: 1em;
-}
-
-.events {
-  background-color: rgba(206, 206, 206, 0.3);
-	border-radius: 2%;
-	margin: 3em 0;
-	padding: 1em 0;
-}
-
-a {
-  color: #c40909;
-}
-
-a:hover {
-  color: #7f0808;
 }
 
 .contacts {
@@ -284,4 +58,38 @@ width: 350px;
 
 .contacts a {
 text-decoration: none !important;
+}
+
+@media only screen and (max-width: 700px) {
+	.contacts {
+		margin: 0;
+		width: 100%;
+	}
+	.contacts h3 {
+		font-size: .96em;
+	}
+
+#email {
+  max-width: 75%;
+  height: auto;
+
+}
+
+#insta {
+  max-width: 75%;
+  height: auto;
+}
+
+#FB {
+  max-width: 75%;
+  height: auto;
+}
+
+#contact-insta {
+  max-width: 75%;
+}
+
+#contact-facebook {
+  max-width: 75%;
+}
 }
