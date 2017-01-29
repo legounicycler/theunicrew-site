@@ -15,7 +15,7 @@
 	position: absolute;
 	width: 100%;
 	bottom: 1em;
-	background-color: rgba(1, 1, 1, 0.5);
+	background-color: rgba(1, 1, 1, 0.6);
 	margin-bottom: 3em;
 }
 
@@ -43,6 +43,7 @@ body {
 	background-color: #232323;
 	margin: 0;
 	position: relative;
+	overflow-wrap: break-word;
 }
 
 
@@ -109,6 +110,7 @@ body {
 
 .navbuttons li:hover {
 	background-color:#c40909;
+	color: white;
 }
 
 .navigation .social {
@@ -202,7 +204,15 @@ p {
 .button:hover {
 	background-color: #a30000;
 	transform: scale(1.05);
+	color: white;
+}
 
+a {
+  color: #c40909;
+}
+
+a:hover {
+  color: #7f0808;
 }
 
 .footer {
@@ -213,4 +223,81 @@ p {
 	padding: 1em;
 }
 
+@media only screen and (max-width: 1140px) {
+	.navigation { 
+		position: static;
+		margin-top: 0;
+		text-align: center;
+	}
+	.logo {
+		margin: .5em 0 0 0;
+	}
+	.navbuttons, .navbuttons ul{
+		display: block;
+	}
+	.navbuttons li {
+		float: none;
+		display: inline-block;
+		min-width: 220px;
+		padding: 20px 0px;
+	}
+	.navigation .social {
+		display: block;
+		float: none;
+		margin: 0;
+	}
+	.logo img {
+		max-height: 100px;
+		max-width: 100px;
+		margin: 0;
+		box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.6);
+	}
+	.header h1 {
+		font-size: 4em;
+	}
+	.header h3 {
+		font-size: 1.5em;
+	}
+	.header-content {
+		bottom: 5em;
+	}
+}
 
+@media only screen and (max-width: 700px) {
+	.logo img{
+		max-width: 150px;
+		max-height: 150px;
+	}
+	#wrapper img {
+		max-width: 100%;
+		padding: 1em 0;
+	}
+	.header h1 {
+		font-size: 3em;
+	}
+	.info h1 {
+		font-size: 2em;
+	}
+	.button {
+		padding: .4em 0;
+		width: 100%;
+		font-size: 1em;
+	}
+	p {
+		font-size: 1em;
+	}
+	.header h3 {
+		font-size: 1em;
+		padding-bottom: 1em;
+	}
+	.header {
+		background-position: center;
+	}
+	.header-content {
+		background-color: rgba(1, 1, 1, 0.7);
+	}
+	iframe {
+		width: 100%;
+		height: auto;
+	}
+}
