@@ -6,8 +6,9 @@ light gray:  rgba(206, 206, 206, 0.3)
 */
 
 .header {
-	background-image: url("img/standard_elementary.jpg");
-	background-position: center;
+	background-image: url("img/prom.jpg");
+	background-position: center 80%;
+	background-size: cover;
 }
 
 .events {
