@@ -10,13 +10,24 @@
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="menu.js"></script>
     </head>
     <body>
-    	
+		
     	<div class="navigation">
-    			<a href="index.html" class="logo">
-    			<img src="img/logo.jpeg" title="Home" />
-    			</a>
+		
+    		<a href="index.html" class="logo"><img src="img/logo.jpeg" title="Home"/></a>
+			
+			<div class="menu-row">
+				<div class="menu" onclick="myFunction(this)">
+					<script>function myFunction(x) {x.classList.toggle("change");}</script>
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+			</div>
+			
     		<div class="navbuttons">
 				<ul>
 				  	<a href="videos.html"><li>Videos</li></a>
