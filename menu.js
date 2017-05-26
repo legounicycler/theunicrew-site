@@ -2,8 +2,8 @@ $(document).ready(function() {
 	checkSize();
 	$(window).resize(checkSize);
 	$(".menu").click(function() {
-		$(".social").toggle('fast');
-		$(".navbuttons").toggle('fast');
+		$(".social").slideToggle('fast');
+		$(".navbuttons").slideToggle('fast');
 	});
 });
 
@@ -12,6 +12,7 @@ function checkSize(){
         $(".social").hide();
 		$(".navbuttons").hide();
 		$(".menu-row").show();
+		$(".menu").removeClass("change");
 	} else {
 		$(".menu-row").hide();
 		$(".social").show();
